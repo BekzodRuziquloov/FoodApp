@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="taomlar">taomlar</string>
+    <string name="taomlar1">Taomlar</string>
+    <string name="taom_tayyorlash_tartibi">Taom tayyorlash tartibi</string>
+    <string name="kerakli_mahsulot">Kerakli mahsulot</string>
+    <string name="taom_nomi">Taom nomi</string>
+    <string name="save">Save</string>
+    <string name="kerakli_mahsulotlar">Phone Name</string>
+    <string name="taom">Phone informations</string>
+    <string name="taom_tayyorlash">Phone Informations</string>
+    <string name="tayyorlash_tartibi">Phone info</string>
+    <string name="mahsulotlar">Phone Name</string>
+    <string name="kli_mahsulotlar">Phone Name</string>
+    <string name="add">add</string>
+    <string name="about_phone">About Phone</string>
+    <string name="phone_name">Phone Name</string>
+</resources>

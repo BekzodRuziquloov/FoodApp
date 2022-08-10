@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="space.beka.foodapp1.PhoneType">
+
+    <Button
+        android:id="@+id/tv_samsung"
+        style="@style/btn_style"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="60dp"
+        android:text="Samsung"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/tv_artel"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/tv_sony"
+        style="@style/btn_style"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="224dp"
+        android:text="Sony"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@id/tv_artel"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintLeft_toRightOf="@id/tv_mi"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/tv_iphone"
+        style="@style/btn_style"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="52dp"
+        android:text="Iphone"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@id/tv_sony"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintLeft_toRightOf="@id/tv_huawei"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/tv_huawei"
+        style="@style/btn_style"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="52dp"
+        android:text="Huawei"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@id/tv_mi"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/tv_iphone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/tv_artel"
+        style="@style/btn_style"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="56dp"
+        android:text="Artel"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintLeft_toRightOf="@id/tv_samsung"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/tv_mi"
+        style="@style/btn_style"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="224dp"
+        android:text="Mi"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@id/tv_samsung"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/tv_sony"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605"
+        app:layout_constraintVertical_chainStyle="packed" />
+</androidx.constraintlayout.widget.ConstraintLayout>
